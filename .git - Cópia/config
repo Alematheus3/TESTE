@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "oringin"]
+	url = https://github.com/alematheus3/Alessandro.git
+	fetch = +refs/heads/*:refs/remotes/oringin/*
+[remote "origin"]
+	url = https://github.com/Alematheus3/Alessandro.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "ale"]
+	url = https://github.com/Alematheus3/TESTE
+	fetch = +refs/heads/*:refs/remotes/ale/*
+[branch "master"]
+	remote = ale
+	merge = refs/heads/master
